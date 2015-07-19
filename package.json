@@ -1,20 +1,18 @@
 {
-  "name": "uxcore-form",
+  "name": "examplecode",
   "version": "1.0.0",
-  "description": "uxcore-form ui component for react",
-  "main": "lib/index.js",
+  "description": "uxcore examplecode for  react",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive --reporter spec --require should",
     "dev": "webpack-dev-server --progress --colors --port  9090",
-    "dist": "webpack --progress --colors --config dist.config.js",
     "demo": "webpack --progress --colors --config demo.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:uxcore/uxcore-form.git"
+    "url": "git@github.com:uxcore/examplecode.git"
   },
   "bugs": {
-    "url": "http://github.com/uxcore/uxcore-form/issues"
+    "url": "http://github.com/uxcore/examplecode/issues"
   },
   "keywords": [
     "react",
