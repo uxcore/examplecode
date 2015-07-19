@@ -1,0 +1,51 @@
+{
+  "name": "uxcore-form",
+  "version": "1.0.0",
+  "description": "uxcore-form ui component for react",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --recursive --reporter spec --require should",
+    "dev": "webpack-dev-server --progress --colors --port  9090",
+    "dist": "webpack --progress --colors --config dist.config.js",
+    "demo": "webpack --progress --colors --config demo.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:uxcore/uxcore-form.git"
+  },
+  "bugs": {
+    "url": "http://github.com/uxcore/uxcore-form/issues"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "react-uxcore-form",
+    "uxcore-form"
+  ],
+  "devDependencies": {
+    "babel-core": "^5.1.13",
+    "babel-loader": "^5.0.0",
+    "css-loader": "^0.9.0",
+    "gulp": "^3.8.11",
+    "gulp-gh-pages":"0.5.2",
+    "gulp-react": "^3.0.0",
+    "react-hot-loader": "^1.2.4",
+    "style-loader": "^0.8.2",
+    "stylus-loader": "^0.4.0",
+    "webpack": "^1.8.4",
+    "webpack-dev-server": "1.6.6"
+  },
+  "dependencies": {
+    "classnames": "^2.1.1",
+    "uxcore-radiogroup":"1.0.0",
+    "uxcore-select":"1.0.0",
+    "es6-promise": "^2.1.1",
+    "object-assign": "^2.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=0.13.0"
+  },
+  "author": "",
+  "contributors": [],
+  "license": "MIT"
+}
